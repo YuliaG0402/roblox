@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(187, 129, 129);
+   font-family:  Verdana, sans-serif;
+}
+ 
+header img{
+/*background-image: url("header_image.jpg");*/
+width: 100%;
+}
+
+nav {
+    border-top: 5px solid white;;
+    border-bottom: 5px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+a {
+    font-size: 20px;
+    margin: 20px;
+    color: royalblue;
+}
+a:hover{
+    background-color: lightblue;
+    color:darkorange ;
+}
+h1{
+    text-align: center;
+}
+
+.image1{
+    width: 300px;
+    height: 200px;
+}
+
+.skin{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+}
+
+.skin_img{
+    text-align: center;
+}
+
+.news_text{
+    font-size:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.image2{
+    float:right;
+    height: 250px;
+    width: 400px;
+    padding-left: 10px;
+}
